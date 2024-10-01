@@ -1,0 +1,18 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+    Properties:
+      Displays:
+        - Class: rviz_default_plugins/RobotModel
+          Enabled: true
+          Name: RobotModel
+          Robot Description: robot_description
+          Visual Enabled: true
+          Collision Enabled: false
+          Update Interval: 0.0
+          Alpha: 1.0
+          Show Axes: true
+        - Class: rviz_default_plugins/TF
+          Enabled: true
+          Name: TF
+          Show Axes: true
